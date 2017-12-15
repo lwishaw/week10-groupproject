@@ -1,0 +1,55 @@
+<style>
+
+article.instructor { 
+  margin: 0 auto;
+  clear: both;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+div.instrow {
+  clear: both;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+div.instrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    
+div[class^='instcol_'] {
+  float: left;
+  background-color: white;
+  border: 10px solid white;
+}
+
+div.instcol_1_of_3 {
+  width: 31%;
+  
+}
+
+div.instcol_1_of_3 img {
+  width: 100%;
+  height: auto;
+  
+}
+
+div h2 {
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2880b8;
+  
+}
+
+div p {
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+
+</style>
